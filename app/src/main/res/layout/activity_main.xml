@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="44dp"
+        android:text="Satu"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="137dp"
+        android:layout_height="38dp"
+        android:text="Dua"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="161dp"
+        android:layout_height="22dp"
+        android:text="Tiga"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="196dp"
+        android:layout_height="26dp"
+        android:text="Empat"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+</android.support.constraint.ConstraintLayout>
